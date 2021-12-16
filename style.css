@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+/*font-family: 'Markazi Text'*/
+body,html{
+    padding: 30px;
+    margin: 50px;
+}
+
+body{
+    font-family: 'Markazi Text;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.separator{
+    height: 20px;
+    width: 80px;
+    border: none;
+    box-shadow: brown;
+    background-color: greenyellow;
+}
+
+/*header*/
+.header {
+    background-color:tomato;
+    height: 90px;
+    line-height: 100px;
+    font-weight: 900;
+}
+
+.profil {
+    color:#fa34900a;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 30px;
+    float:law;
+    font-family: Arial black;
+}
+
+
+.sommaire a:hover{
+    color: #E02804;
+}
+
+
+/*bannière*/
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner{
+    position: absolute;
+    top:80%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1{
+    color: red;
+    text-shadow: 4px 4px 80px red;
+    text-decoration: chartreuse;
+}
+
+
+/*about*/
+#about{
+    text-decoration-style: initial;
+    text-align: center;
+    color: indigo;
+    padding-top: 10%;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.about article h2 {
+    margin-left: 40%;
+    text-size-adjust: 45%;
+}
+
+.about article h2 img{
+    width: 30%;
+    max-width: 30%;
+}
+.sec-gauche{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sec-droite{
+    margin-left: 350px;
+    margin-top: 12px;
+}
+
+h2{
+    font-size: 33px;
+    color:#4133bb;
+   
+
+}
+
+.duree{
+    font-weight: normal;
+    font-style:italic;
+    font-size: 16px;
+}
+
+.titre{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#forma-gauche p{
+    margin-bottom: 60px;
+
+}
+
+#exp-gauche p{
+    margin-top: 35px;
+}
+
+#lang-droite p{
+    margin-top: 43px;
+}
+
+#strong olivia GADO {
+    font-size:30px;
+}
+
+
+/*contact*/
+.footer{
+    background-color: #2BE0C3;
+    text-align: center;
+    
+}
+
+#pour me joindre{
+    color: black;
+    text-align: center;
+}
+
+.formulaire contact{
+    width: 500px;
+    display: block;
+    margin: 0auto;
+}
+
+.formulaire img{
+    width: 10%;
+    max-width: 10%;
+}
+
+/*Mon CV*/
+.CV{
+    text-align: center;
+}
